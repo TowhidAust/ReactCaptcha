@@ -1,3 +1,16 @@
+/**
+ * DOCUMENTATION
+ * firstly design the grid with differrent icons with triangle, circle and square
+ * randomize the 2D array with shuffle function which is exported from helper.ts
+ * Also randomize every array element in every render
+ * add onclick event and put the clicked element id in the array
+ * logically handle the array that the user selected the correct icon
+ * the selectabale item is randomly generated with a state selectableItems
+ * if user selects the correct icons then it will show that the user is verified
+ * at least 4 items should select
+ * when user selects the icons the background will change
+ */
+
 import { Button, Col, message, Row } from 'antd';
 import { useEffect, useRef, useState } from 'react';
 import { BsFillTriangleFill } from 'react-icons/bs';
